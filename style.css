@@ -1,0 +1,20 @@
+.my-grid {
+  border: 2px solid #000;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  min-height: 100px;
+}
+
+.logo {
+  grid-column: 2/3;
+}
+
+.bottom {
+  grid-row-start: 2;
+}
+
+.mail {
+  grid-column: 3/3;
+}
